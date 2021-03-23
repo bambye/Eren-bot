@@ -994,7 +994,6 @@ break
 case 'pinterest':
 tels = body.slice(11)
 if (!isRegister) return reply(mess.only.daftarB)
-
 if (args.length < 1) return reply('Ingresa lo que quieres buscar')
 Lxa.updatePresence(from, Presence.composing)
 try {
